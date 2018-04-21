@@ -1,24 +1,58 @@
 <!Doctype HTML>
+
 <html>
-  <title>
-  Google
-  </title>
-    <head>
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-  <link rel="stylesheet" href="style.css" type="text/css"/>
-    </head>
-      <body>
-        <div id="sb">
-          <a href="https://www.google.com" style="text-decoration:none">About</a>
-          <a href="https://www.google.com" style="text-decoration:none">Store</a>
-        </div>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="googlelogo">
-              <div></div>
-          <input id="search" class="search" action="/search" style="overflow:visible" method="get" background>
-               <div></div>
-               <div class="gs">
-             <input value="Google Search" aria-label="Google Search" type="submit">
-             <input value="I'm feeling lucky" aria-label="I'm feeling lucky" type="submit">
+  <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Google</title>
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+      <link rel="stylesheet" href="style.css" type="text/css"/>
+  </head>
+
+  <body>
+    <div id="content">
+
+     <div id="navbar">
+       <div>
+         <a href="">About</a>
+         <a href="">Store</a>
+       </div>
+       <div>
+         <a href="">Gmail</a>
+         <a href="">Images</a>
+         <a href="">
+           <img src="./images/google-apps.png" alt="Other Google Apps">
+         </a>
+         <a href="">
+           <img src="./images/google-notifications.png" alt="Notifications">
+         </a>
+         <a href="">
+           <img src="./images/photo.jpg.png" class="acnt" alt="Account Photo">
+         </a>
+       </div>
+ </div>
+    <div id="googlelogo" class="center">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    </div>
+          <div id="searchbar" action="/search" style="overflow:visible" method="get" background>
+               <form id="search">
+                 <input id="searchinput">
+              <div id="buttons">
+                <input type="submit" class="flatbutton" value="Google Search">
+                <input type="submit" class="flatbutton" value="I'm Feeling Lucky">
+              </div></div>
     <div></div>
       </body>
+
+      <div id="footer">
+        <div id="footerbar">
+          <div>
+          <a href="">Advertising</a>
+          <a href="">Business</a>
+          </div>
+          <div>
+          <a href="">Privacy</a>
+          <a href="">Terms</a>
+          <a href="">Settings</a>
+      </div></div>
 </html>
